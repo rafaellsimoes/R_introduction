@@ -1,0 +1,8 @@
+Tabela de mortalidade do Sistema de Informações de Mortalidade do Ministério da Saúde
+
+https://datasus.saude.gov.br/
+
+
+Tabela 9605 do SIDRA
+
+https://sidra.ibge.gov.br/Tabela/9605
