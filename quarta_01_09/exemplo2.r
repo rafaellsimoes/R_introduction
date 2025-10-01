@@ -35,5 +35,12 @@ dados_rebanho_ovinos <- dados_rebanho |>
 dados_rebanho_ovinos_wider <-   tidyr::pivot_wider(dados_rebanho_ovinos,
                                                    names_from = "Ano",
                                                    values_from = "Ovino")
-
 summary(dados_rebanho_ovinos_wider)
+
+dados_rebanho_bovino_bubalino <- dados_rebanho |>
+  dplyr::select(cod_ibge,UF,Ano,bovino,bubalino)
+dados_rebanho_bovino_bubalino_wider <- tidyr::pivot_wider(
+  dados_rebanho_bovino_bubalino,
+  names_from = "Ano",
+  values_from = c("bovino","bubalino")
+)
